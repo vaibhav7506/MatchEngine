@@ -1,0 +1,11 @@
+Phase 2 verification, 2026-09-13
+Environment: Windows, CPython 3.13.2, pybind11 3.0.1, pytest 8.4.2
+Native compiler: LLVM-MinGW Clang 23.1.1, Release
+
+Command: .venv\Scripts\python.exe -m pytest -q -p no:cacheprovider
+......................................                                   [100%]
+38 passed in 0.79s
+
+Original C++ suite: CTest passed (1/1 test executable, 0.08 sec)
+Live downloader: 365 BTCUSDT daily candles, 2023-01-01 through 2024-01-01 exclusive
+Real-data replay: both strategies passed position reconciliation at every bar

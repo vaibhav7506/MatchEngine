@@ -1,0 +1,13 @@
+Run date (local Asia/Calcutta): 2026-09-13
+CPU: AMD Ryzen 7 4800H with Radeon Graphics
+Logical processors: 16
+OS: Windows NT 10.0.26200.0
+Compiler: LLVM-MinGW 20260908, Clang 23.1.1, libc++, x86_64 UCRT
+CMake: 3.31.8
+Engine flags: -O3 -DNDEBUG -Wall -Wextra -Wpedantic -Wconversion
+Build generator: MinGW Makefiles
+Release tests: 13 cases, 34071 assertions passed
+Debug ASan/UBSan: CTest passed, test runtime 1.36 seconds
+Benchmark concurrency: one engine thread, no simultaneous compilation
+Catch2 version: 2.13.10
+Catch2 header SHA256: 3725c0f0a75f376a5005dde31ead0feb8f7da7507644c201b814443de8355170

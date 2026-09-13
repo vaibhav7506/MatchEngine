@@ -1,0 +1,4 @@
+orders=1000000 seed=42 seconds=0.566 orders_per_second=1767852.660 p50_us=0.300 p95_us=0.900 p99_us=1.500 trades=818440 resting_orders=100717
+resting_orders=1000 price_levels=200 resident_bytes=4468736 resident_delta_bytes=319488 private_bytes=970752 private_delta_bytes=278528
+resting_orders=10000 price_levels=200 resident_bytes=6909952 resident_delta_bytes=2760704 private_bytes=3465216 private_delta_bytes=2777088
+resting_orders=100000 price_levels=200 resident_bytes=27312128 resident_delta_bytes=23166976 private_bytes=24715264 private_delta_bytes=24027136
