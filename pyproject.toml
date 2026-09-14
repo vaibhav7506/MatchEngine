@@ -1,0 +1,29 @@
+[build-system]
+requires = ["scikit-build-core==0.11.6", "pybind11==3.0.1"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "matchengine"
+version = "0.2.0"
+description = "C++ price-time matching engine with deterministic historical replay"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+test = ["pytest==8.4.2"]
+
+[project.scripts]
+matchengine-replay = "matchengine.cli:main"
+
+[tool.scikit-build]
+wheel.packages = ["python/matchengine"]
+cmake.build-type = "Release"
+
+[tool.scikit-build.cmake.define]
+MATCHENGINE_BUILD_PYTHON = "ON"
+MATCHENGINE_BUILD_TESTS = "OFF"
+MATCHENGINE_BUILD_BENCHMARK = "OFF"
+MATCHENGINE_BUILD_ITCH = "OFF"
+
+[tool.pytest.ini_options]
+testpaths = ["tests/python"]
+addopts = "--basetemp=build-pytest-tmp"
