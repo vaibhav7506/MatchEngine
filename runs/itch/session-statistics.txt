@@ -1,0 +1,22 @@
+messages=268744780 normalized=264469451 administrative=4275329 parse_failures=0
+type=A count=117145568 scope=normalized
+type=C count=99917 scope=normalized
+type=D count=114360997 scope=normalized
+type=E count=5722824 scope=normalized
+type=F count=1485888 scope=normalized
+type=H count=8966 scope=length-validated-only
+type=I count=4024315 scope=length-validated-only
+type=J count=34 scope=length-validated-only
+type=K count=3 scope=length-validated-only
+type=L count=215161 scope=length-validated-only
+type=P count=1218602 scope=normalized
+type=Q count=17836 scope=length-validated-only
+type=R count=8906 scope=normalized
+type=S count=6 scope=normalized
+type=U count=21639067 scope=normalized
+type=V count=1 scope=length-validated-only
+type=X count=2787676 scope=normalized
+type=Y count=9013 scope=length-validated-only
+sampled_roots=10000 checked_updates=16498 live_sample_orders=0 remaining_sample_shares=0 reconciliation=PASS
+start_event=1 end_event=1 binaryfile_terminator=0 timestamp_regressions=0
+bytes=8251407909 seconds=188.831 messages_per_second=1423205.534

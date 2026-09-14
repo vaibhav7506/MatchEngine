@@ -1,0 +1,13 @@
+{
+  "sampled_roots": 10000,
+  "all_rows_balanced": true,
+  "totals": {
+    "added": 9278064,
+    "replacement_added": 6791923,
+    "executed": 56864,
+    "cancelled": 1858998,
+    "deleted": 7293358,
+    "replaced_out": 6860767,
+    "remaining": 0
+  }
+}

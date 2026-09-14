@@ -1,0 +1,14 @@
+{
+  "url": "https://emi.nasdaq.com/ITCH/Nasdaq%20ITCH/12302019.NASDAQ_ITCH50.gz",
+  "compressed_bytes": 3524013057,
+  "sha256": "ef03df46a27e6bda4dead017f84c2e3979df7211f02c7868b51d53fceb99c689",
+  "verified_at": "2026-09-13T05:56:32.566409+00:00",
+  "md5": "23514ef98821448a3f8f4c5b4095f3f5",
+  "checksum_url": "https://emi.nasdaq.com/ITCH/Nasdaq%20ITCH/12302019.NASDAQ_ITCH50.gz.md5sum",
+  "official_md5_verified": false,
+  "checksum_error": "HTTP 404 from Nasdaq's listed checksum URL",
+  "raw_file": "12302019.NASDAQ_ITCH50",
+  "raw_bytes": 8251407909,
+  "raw_sha256": "5d81c2e14a0f748b29c674b6a342796932702034b4dd341e39e9a9ec5bac610f",
+  "gzip_crc_verified": true
+}

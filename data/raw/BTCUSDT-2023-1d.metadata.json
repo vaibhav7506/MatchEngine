@@ -1,0 +1,13 @@
+{
+  "provider": "Binance public spot klines",
+  "symbol": "BTCUSDT",
+  "interval": "1d",
+  "start_inclusive": "2023-01-01",
+  "end_exclusive": "2024-01-01",
+  "retrieved_at": "2026-09-12T19:41:13.051078+00:00",
+  "urls": [
+    "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1d&startTime=1672531200000&endTime=1704067199999&limit=1000"
+  ],
+  "sha256": "7618f1584d928d4419d8d4b7651624a5dc7e11ecc42b3fdc1cca89aa267c1724",
+  "row_count": 365
+}

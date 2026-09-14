@@ -1,0 +1,6 @@
+messages=5954783 normalized=6 administrative=5954777 parse_failures=0
+type=I count=5954777 scope=length-validated-only
+type=S count=6 scope=normalized
+sampled_roots=0 checked_updates=0 live_sample_orders=0 remaining_sample_shares=0 reconciliation=NOT_APPLICABLE_NO_ADDS
+start_event=1 end_event=1 binaryfile_terminator=0 timestamp_regressions=0
+bytes=309648488 seconds=0.959 messages_per_second=6210901.316

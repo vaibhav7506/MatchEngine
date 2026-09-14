@@ -1,0 +1,10 @@
+{
+  "url": "https://emi.nasdaq.com/ITCH/Nasdaq%20ITCH/NOII/S050922-v50-NOII.txt.gz",
+  "compressed_bytes": 96588423,
+  "sha256": "d02060ab1f412bd5aeda6e81b6a37f5fae9aa2707d01f2f6640dbe45a52f4056",
+  "verified_at": "2026-09-12T19:58:13.757381+00:00",
+  "raw_file": "S050922-v50-NOII.txt",
+  "raw_bytes": 309648488,
+  "raw_sha256": "3bf1c657417c594f99c1e80ae4f45fb40892e0e610145664601e4e9c0b61a3e6",
+  "gzip_crc_verified": true
+}
