@@ -1,0 +1,37 @@
+{
+  "phase": 2,
+  "symbol": "BTCUSDT",
+  "strategy": "ma_crossover",
+  "strategy_parameters": {
+    "short_window": 10,
+    "long_window": 30,
+    "quantity": 100
+  },
+  "config": {
+    "initial_cash": 10000,
+    "fee_bps": 5,
+    "spread_bps": 2,
+    "unit_size": 0.001,
+    "tick_size": 0.01,
+    "volume_fraction": 0.0001
+  },
+  "start_inclusive": "2023-01-01",
+  "end_exclusive": "2024-01-01",
+  "data_file": "data\\raw\\BTCUSDT-2023-1d.json",
+  "data_sha256": "7618f1584d928d4419d8d4b7651624a5dc7e11ecc42b3fdc1cca89aa267c1724",
+  "bars": 365,
+  "validation_issues": [],
+  "skipped_rows": 0,
+  "engine_trade_count": 1471,
+  "strategy_fill_count": 11,
+  "ending_cash": 7083.223492499999,
+  "ending_position_lots": 100,
+  "ending_equity": 11311.5814925,
+  "ending_pnl": 1311.5814924999995,
+  "fees": 14.995507499999999,
+  "self_trade_skips": 0,
+  "fok_rejections": 0,
+  "position_reconciled": true,
+  "marking": "Final historical close; open inventory is not forcibly liquidated",
+  "timestamps": "timestamp is unchanged C++ wall-clock time; simulation_timestamp is modeled historical arrival time"
+}
